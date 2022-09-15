@@ -1,0 +1,25 @@
+package com.ptpl;
+
+public class TestContunee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,n=100;
+		i=1;
+		while(i<=n)
+		{
+			if(i==50)
+			{
+				i++;
+			continue;
+			//System.out.print("After c");
+			}
+				System.out.print(i+" ");
+			i++;
+		}
+		System.out.print( "\nOut of loop");
+			
+
+	}
+
+}
